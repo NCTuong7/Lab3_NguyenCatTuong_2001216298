@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bai3b">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+       >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#4CAF50"
+            android:text="Received information:"
+            android:textColor="#FFEB3B"
+            android:textSize="10pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FF69B4"
+        >
+
+        <TextView
+            android:id="@+id/editTextTextPersonName1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#FFEB3B"
+            android:textSize="8pt" />
+
+        <EditText
+            android:id="@+id/txtName3b"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:backgroundTint="#FFEB3B"
+            android:textColor="#FFEB3B"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#FFEB3B"
+            android:backgroundTint="#FFEB3B"
+            android:inputType="textPersonName"
+            android:text=";Email" />
+
+        <EditText
+            android:id="@+id/txtEmail3b"
+            android:backgroundTint="#FFEB3B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#FFEB3B"
+            android:inputType="textPersonName"
+            android:text="" />
+    </LinearLayout>
+
+</LinearLayout>
